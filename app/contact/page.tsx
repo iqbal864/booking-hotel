@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import HeaderSsection from "@/components/header-section";
+import ContactForm from "@/components/contact-form";
 import {
   IoMaleOutline,
   IoCallOutline,
@@ -35,7 +36,7 @@ const ContactPage = () => {
                 </div>
                 <div className="flex-1">
                   <h4 className="text-lg font-semibold mb-1">Email</h4>
-                  <p>Email@example.com</p>
+                  <p>email@example.com</p>
                 </div>
               </li>
               <li className="flex gap-5">
@@ -62,6 +63,7 @@ const ContactPage = () => {
             </ul>
           </div>
           {/* Contact Form */}
+          <ContactForm />
         </div>
       </div>
     </div>
